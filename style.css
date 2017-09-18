@@ -19,7 +19,7 @@ a.text {
 }
 
 div {
-	border: 1px solid red;
+	border: 0px solid red;
 }
 
 .top_container {
@@ -47,26 +47,36 @@ img.center {
 }
 
 
-div.form
+.form
 {
     display: block;
     text-align: center;
     padding-top: 30px;
 }
 
+
 input.text {
-  width: 550px;
-  border: 1px solid #999;
-  height: 40px;
+  width: 530px;
+  border: 1px solid #d3d3d3;
+  height: 20px;
   box-shadow: 0 8px 8px -10px #333;
-  border:1px solid #d3d3d3;
+  outline-width: 0;
+  font-size: 16px;
+  padding: 10px;
 }
 
-.button {
+input.button {
 	font-family: "arial", "sans-serif";
+	color: #666;
 	font-weight: bold;
-	width: 180px;
-	height: 200px;
+	font-size: 13px;
+	width: 140px;
+	height: 40px;
+	margin-top: 30px;
+	margin-right: 5px;
+	border: 0px;
+	background-color: #f6f6f6;
+	outline-width: 0.5px;
 }
 
 .footer {
