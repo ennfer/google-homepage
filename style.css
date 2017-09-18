@@ -8,7 +8,14 @@ a {
 	font-size: small;
 	color: #333;
 	text-decoration: none;
-	border: 1px dotted green;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.text {
+	margin-right: 8px;
 }
 
 div {
@@ -44,16 +51,46 @@ div.form
 {
     display: block;
     text-align: center;
+    padding-top: 30px;
 }
 
-.footer a.left {
-	position: relative;
-	top: 0px;
-	right: 0px;
+input.text {
+  width: 550px;
+  border: 1px solid #999;
+  height: 40px;
+  box-shadow: 0 8px 8px -10px #333;
+  border:1px solid #d3d3d3;
 }
 
-.footer a.right {
+.button {
+	font-family: "arial", "sans-serif";
+	font-weight: bold;
+	width: 180px;
+	height: 200px;
+}
+
+.footer {
+	height: 40px;
+	width: 100%;
+	border-style: solid;
+	border-top-color: #dddddd;
+	position: absolute;
+	bottom: 0px;
+	background-color: #f6f6f6
+}
+
+a.left {
 	position: relative;
-	top: 0px;
-	left: 960px;
+	float: left;
+	top: 10px;
+	margin-left: 25px;
+	color: #666666;
+}
+
+a.right {
+	position: relative;
+	float: right;
+	top: 10px;
+	margin-right: 25px;
+	color: #666666;
 }
