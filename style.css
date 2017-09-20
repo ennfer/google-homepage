@@ -59,7 +59,7 @@ input.text {
   width: 530px;
   border: 1px solid #d3d3d3;
   height: 20px;
-  box-shadow: 0 8px 8px -10px #333;
+  box-shadow: 1px 1px 3px #888888;
   outline-width: 0;
   font-size: 16px;
   padding: 10px;
@@ -82,8 +82,7 @@ input.button {
 .footer {
 	height: 40px;
 	width: 100%;
-	border-style: solid;
-	border-top-color: #dddddd;
+  	border-top: 1px solid #d6d6d6;
 	position: absolute;
 	bottom: 0px;
 	background-color: #f6f6f6
